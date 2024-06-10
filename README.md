@@ -1,0 +1,1 @@
+🐍 Este repositório é dedicado ao meu progresso e exploração contínua da linguagem de programação Python. Aqui, você encontrará uma coleção de projetos, exercícios, recursos e anotações que estou utilizando para aprimorar minhas habilidades em Python. 🚀
