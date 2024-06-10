@@ -58,7 +58,8 @@ print(novo_nome)
 
 
 
-
+#exercicio
+#faça uma calculadora
 
 while True:
     
@@ -124,5 +125,48 @@ while chance < 5:
     if palavra_inteira == palavra_secreta:
         print("voce ganhou")
         break
+
+
+#Exeercicio
+#Enumere os itens de uma lista de forma dinâmica começando do 0 até o ultimo item add   
+lista = ['joao', 'maria', 'helena']
+count = range(len(lista))
+#for percorre 
+for indice in count:
+    #criei uma variavel para receber a lista com o indice pegando o lugar do item
+    listas = lista[indice]
+    print(f"indice {indice} => {listas}")
+
+
+#faça uma entrada de dados aonde o usuario adicionara itens a uma lista
+#os itens devem ter cada um seu indice começando do 0
+#o usuario poderá apagar e listar os itens e voltar a adicionar de forma dinâmica
+lista = []
+
+while True:
+    adicionar_item = input("[a]adicionar [d]deletar [l]listar: ")
+
+    if adicionar_item == 'a':
+        item_lista = input("listar item ")
+        lista.append(item_lista)
     
-   
+    elif adicionar_item == 'l':
+        for indice, item in enumerate(lista):
+            print(f"{indice}: {item}")
+    
+    elif adicionar_item == 'd':
+        try:
+            indice_item = input("item para apagar da lista ")
+            indice_item = int(indice_item)
+            if indice_item < 0 or len(lista) <= 0:
+                print("item não existe ")
+            else:
+                del lista[indice_item]
+        except:
+            print("digite um numero válido ")
+    elif adicionar_item == 's':
+        break
+
+print(f"{indice}: {item}")
+
+

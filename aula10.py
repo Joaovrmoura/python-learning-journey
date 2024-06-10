@@ -9,6 +9,8 @@ for indice in count:
     #criei uma variavel para receber a lista com o indice pegando o lugar do item
     listas = lista[indice]
     print(f"indice {indice} => {listas}")
+print('\n\n')
+
 
 """
 Introdução ao desempacotamento + tuples ou tuplas
@@ -16,22 +18,47 @@ Introdução ao desempacotamento + tuples ou tuplas
 #aqui p *_ pega o indice e descarta o resto da variavel
 #aonde for adicionado o *_ ou o *resto o lugar ficará "vazio" e o item vai para o "comentario"
 #tudo adicionado depois vira o resto da variavel
+itens, item, *rest = ['item1', 'item 2', 'item3', 'item4']
+print(itens)
+
 _, nome2, *resto = ['item1', 'item 2', 'item3', 'item4']
 print(nome2)
 print(resto)
-_, nome2, *_ = ['item1', 'item 2', 'item3', 'item4']
-print(nome2)
 
+_, nome2, *_ = ['item1', 'item 2', 'item3', 'item4']
+print(nome2 + '\n\n')
 #tuplas são listas nas quais os itens não são alteráveis 
 #para criar tuplas retiramos os colchetes [] da lista 
 tupla_lista = 'maria', 'jose', 'carlos'
 print(tupla_lista)
+
 #Também é possível fazer uma "tuple" virar lista com ""list"
 tupla_lista = list(tupla_lista)
 print(tupla_lista)
+
 #Também podemos adicionar () ou nome_variavel = tuple(nome_variavel) 
 tupla_1 = ['maria', 'jose', 'carlos']
 tupla_1 = tuple(tupla_1)
-print(f"{tupla_1} {tupla_1[-1]}")
+print(f"{tupla_1} {tupla_1[-1] } . \n")
+
+#enumerate para numerar os itens de uma lista
+lista_enumerate = 'joao', 'carla','fagner'   
+for enumere in enumerate(lista_enumerate):
+    print(enumere)
+
+#ou, Cria uma lista para para o enumerate
+outraLista = list(enumerate(lista_enumerate))
+print(outraLista)
+
+#ou
+outraLista2 = enumerate(lista_enumerate)
+for enumere in outraLista2:
+    print(enumere)
+    
+#ou
+lista4 = ['joao', 'carla','fagner']  
+for item4 in enumerate(lista4):
+    for valor4 in item4:
+        print(f"\t{valor4}")
 
 
