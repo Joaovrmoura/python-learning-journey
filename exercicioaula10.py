@@ -2,6 +2,7 @@
 lista = []
 
 while True:
+    
     adicionar_item = input("[a]adicionar [d]deletar [l]listar: ")
 
     if adicionar_item == 'a':
@@ -9,9 +10,11 @@ while True:
         lista.append(item_lista)
     
     elif adicionar_item == 'l':
+        if len(lista) <= 0:
+            print("nada para listar")
         for indice, item in enumerate(lista):
             print(f"{indice}: {item}")
-    
+
     elif adicionar_item == 'd':
         try:
             indice_item = input("item para apagar da lista ")

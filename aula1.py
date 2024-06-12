@@ -42,3 +42,19 @@ if idades > 18:
     print("é maior de idade")
 else:
     print("é menor de idade")
+
+#interpolação 
+n = "joao"
+idade = "24"
+print("sou {} e tenho {} la ele" .format(n, idade))
+
+# declarando variáveis com varias linhas
+b = f"""
+   sdsadassadasdsad as
+   sadas dsadasdasd
+
+
+   asdadadsfsdfasf
+   sdfsdfsfadf
+"""
+print(b)

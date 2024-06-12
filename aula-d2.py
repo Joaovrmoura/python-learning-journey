@@ -11,7 +11,20 @@ print(f'{1000.55554151651:.2f}')
 print(f'{1000.55554151651:0=+10,.1f}')
 
 #FATIAMENTO DE STRINGS
+liste = ['o', 'la', 'mundo', 'ola', 'joao', 'carlos']
+#[:2] pulando o valor 0 a lista começara 1 e listar tudo dentro do valor do indice
+print(f'{liste[:4]} eee')
+# [inicia do indice digitado : e não mostra o próximo indice]
+print(f'{liste[2:3]} jj')
+#pega toda a lista
+print(f'{liste[::]} toda lista')
+#inicia do zero e só pega 3 elementos e lista pega 0 e 2 no exemplo [0:3:2]
+print(f'{liste[0:4:3]}')
+
+
+
 var = "ola mundo"
+#inverte a lista
 print(f'{var[::-1]}')
 #contar número de strings
 print(len(var))
