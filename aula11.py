@@ -14,7 +14,6 @@ n = "joao"
 idade = "24"
 print("sou {} e tenho {} la ele" .format(n, idade))
 
-
 b = f"""
    sdsadassadasdsad as
    sadas dsadasdasd
