@@ -1,5 +1,3 @@
-
-
 import random
 
 for _ in range(20):

@@ -34,7 +34,7 @@ print(conjunto_a.isdisjoint(conjunto_b))
 
 #aqui os nomes das funções são
 # auto explicativas 
-conjunto_b.add()#só adiciona itens inexistentes
+conjunto_b.add()#Porém só adiciona itens inexistentes
 conjunto_b.clear()
 conjunto_b.copy()
 # DISCARD só discarta oque estiver dentro 

@@ -21,8 +21,6 @@ print(f'{liste[::]} toda lista')
 #inicia do zero e só pega 3 elementos e lista pega 0 e 2 no exemplo [0:3:2]
 print(f'{liste[0:4:3]}')
 
-
-
 var = "ola mundo"
 #inverte a lista
 print(f'{var[::-1]}')
@@ -50,4 +48,3 @@ else:
         print(f'seu nome {nome}, e a ultima letra é {nome[-1:]}')
     else:
         print("Digite um número na idade ")
-    

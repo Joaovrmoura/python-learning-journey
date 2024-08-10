@@ -6,10 +6,9 @@ while cont <= 20:
     if cont == 6:
         continue
     print(cont)
-
     if cont == 10:
         break
-
+    
 #deve ter uma questão dessa na prova
 linhaq = 5
 colunaq = 5

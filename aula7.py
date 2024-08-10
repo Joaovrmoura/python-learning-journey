@@ -4,7 +4,7 @@ n = '#'
 for piramede in range(piramedes):
     print(n)
     n += '#'
-
+    
 #iteradores
 #iteravel
 ##texto = iter('joao')

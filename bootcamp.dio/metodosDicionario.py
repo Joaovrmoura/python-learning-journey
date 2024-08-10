@@ -8,7 +8,7 @@ contatos = {
 
 #copy, copiar o dicionario assim criando um novo id
 copy = contatos.copy()
-#items retorna uma lista uma lista de tuplas
+#items retorna uma lista de tuplas
 print(f"{contatos.items()} \n")
 #método get{} retorna o valor da chave inserida
 print(f"{contatos.get("joao1@gmail.com", {})}")

@@ -1,5 +1,7 @@
-frase = 'ola mundo fsdfwgukrhyg2ghrjg sjfsdfgefwsg'
+#identificar a letra que mais aparece e contar
+#quantas vezes elas apareceu na frase
 
+frase = 'ola mundo fsdfwgukrhyg2ghrjg sjfsdfgefwsg'
 i = 0
 letra_repetida = 0
 letra_result = ''
