@@ -38,7 +38,6 @@ l2.update(("victor", 21))
 l2.discard(21)
 print(l2, '\n')
 
-
 #exemplos de uso de set
 letras = set()
 

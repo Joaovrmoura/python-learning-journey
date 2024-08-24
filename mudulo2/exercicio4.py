@@ -25,7 +25,7 @@ lista_de_listas_de_inteiros = [
     [5, 3, 1, 8, 5, 7, 1, 8, 8, 7],
     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
 ]
-
+ 
 def ja_vistos(lista):
     num_duplicado = set()
     for num in lista:
@@ -38,3 +38,5 @@ for n, chave in enumerate(lista_de_listas_de_inteiros):
     duplicado = lista_de_listas_de_inteiros[n]
     achar_duplicado = ja_vistos(duplicado)
     print(f"{lista_de_listas_de_inteiros[n]} duplicado ->{achar_duplicado}")
+
+
