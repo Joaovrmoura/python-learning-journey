@@ -32,7 +32,7 @@ print()
 # print(a, b)
 #desempacotando o dicionário
 dados = {
-    'cpf':42454,
+    'cpf': 42454,
     'idade': '22',
 }
 #para criar juntar um dicionario dentro do outro podemos utilizar '**'dentro de um terceiro

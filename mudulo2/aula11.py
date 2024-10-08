@@ -1,5 +1,4 @@
 #Dictionary comprehension e Set Comprehension
-
 produto = {
     'nome' : 'joao',
     'idade' : 21,
@@ -38,7 +37,6 @@ for item in lista2:
         print('STR')
         print(item.upper(), isinstance(item, str))
 
-
 print()
 print()
 print()
@@ -46,6 +44,7 @@ print()
 # Valores Truthy e Falsy, Tipos Mutáveis e Imutáveis
 # Mutáveis [] {} set()
 # Imutáveis () "" 0 0.0 None False range(0, 10)
+
 lista = []
 dicionario = {}
 conjunto = set()

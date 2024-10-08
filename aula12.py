@@ -35,7 +35,7 @@ string = 'ABCD'
 lista = ['maria ', 'helena', 1, 2, 3, 'eduarda']
 tupla = 'Python', 'é', 'legal' 
 a, b, *_, c = lista
-lista2= ['maria ', 'helena', 1, 2, 3, 'eduarda']
+lista2 = ['maria ', 'helena', 1, 2, 3, 'eduarda']
 for nome in lista2:
     print(nome)
 print(*lista2)

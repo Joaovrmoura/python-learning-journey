@@ -45,7 +45,7 @@ else:
 
 
 
-# adicione * entre cada letra de um nome didtado pelo usuário
+# adicione * entre cada letra de um nome ditado pelo usuário
 nome = input("digite seu nome : ")
 cont = 0
 novo_nome = ''
