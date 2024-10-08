@@ -1,5 +1,6 @@
 #dir hasattr getattr em python
-#pegar um método do python com um nome atribuido fora da variavel
+# pegar um método do python com um nome 
+# atribuido fora da variavel
 
 nome = 'joaoola'
 metodo = 'strip'

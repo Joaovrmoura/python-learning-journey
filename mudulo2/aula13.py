@@ -34,8 +34,7 @@ for n in loops:
     
     
     
-    
-    
+
 print()
 print()
 # podemos utilizar o yield from para escolher onde o proximo yield deve começar
