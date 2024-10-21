@@ -54,4 +54,3 @@ for n, value in enumerate(perguntas):
 print(f"Você acertou: {acertos} de 3")
     
 
-

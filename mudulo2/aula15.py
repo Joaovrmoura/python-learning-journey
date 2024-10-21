@@ -24,7 +24,7 @@ def nao_aceito_zero(b):
         raise ZeroDivisionError('tentando dividir por zero') 
         # Aqui, o raise lança uma exceção do tipo 
         # ZeroDivisionError com uma mensagem específica
-    #é uma boa adicionar um True caso ela retorn algo
+        #é uma bom adicionar um True caso ela retorn algo
     return True
     
 def divide2(a, b):

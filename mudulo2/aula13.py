@@ -7,6 +7,7 @@ def generetor(n=0):
     print("só mais um")
     yield 3
     return 'finalmente acabou'
+
 # Generator tem o método __ITER__ e __NEXT__ dentro dele
 #para ele entregar o valor se utiliza o método next()
 gen = generetor(n=0)

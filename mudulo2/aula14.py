@@ -19,6 +19,7 @@ except(TypeError, IndexError):
 except ZeroDivisionError as e:
     print(e.__class__.__name__)
     print(e)
+    
 #erro de declarção e nome de uma variável
 except NameError:
     print("Name b não está definido(NameError)")
