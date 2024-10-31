@@ -12,5 +12,6 @@ def criar_funcao(funcao, x):
 
 # o numero que vc passar tem que retornar numero_passado + numero_passado passado
 soma_com_cinco = criar_funcao(soma, 5)
+print(soma_com_cinco)
 # o numero que vc passar tem que retornar numero_passado * numero_passado passado
 multiplica_por_dez = criar_funcao(multiplica, 10)

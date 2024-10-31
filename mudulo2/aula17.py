@@ -1,12 +1,12 @@
 #modulos em python 
-# o primeiro módulo executandi chama-se __main__
-#podemos importar outro módulo inteiro ou partes
-#o python conhce a pasta onde o __main__ está e 
+# o primeiro módulo executando chama-se __main__
+# podemos importar outro módulo inteiro ou partes
+# o python conhce a pasta onde o __main__ está e 
 # as pastas abaixo dele
-#ele não reconhece pastas e módulos acima do __main__ padrão
-#O python reconhece todos os módulos e pacotes nos mesmos
-#caminhos de sys.path
-#pastas são chamadas de pacotes
+# ele não reconhece pastas e módulos acima do __main__ padrão
+# O python reconhece todos os módulos e pacotes nos mesmos
+# caminhos de sys.path
+# pastas são chamadas de pacotes
 
 import sys
 try:

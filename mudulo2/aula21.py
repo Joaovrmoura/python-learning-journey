@@ -16,9 +16,9 @@ def create_function(func):
         print('Função decorada seu valor é', result)
         return result
     return inside
-#Função decoradora
+# Função decoradora
 
-#decrador passa essa função para a função decoradora
+# decorador passa essa função para a função decoradora
 @create_function
 def reverse_string(string):
     print(reverse_string.__name__)
