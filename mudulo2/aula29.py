@@ -1,15 +1,29 @@
 #funções recursivas em python
-def recursiva(n):
-    total = 0
-    if n > 0:
-        total = recursiva(n - 1) * recursiva(n)
-    return total
+# Em funções recursivas necessitamos de um caso base
+#que pare a execução
 
-n = recursiva(5)
-print(n)
+def recursiva(inicio=0, fim=4):
+    print(inicio, fim)
+    if inicio >= fim:
+        return fim
 
-def recurviva2(inicio=0, fim=10):
     inicio += 1
     return recursiva(inicio, fim)
 
-recurviva2()
+print(recursiva())
+
+
+# soma = 0
+# n = 5
+
+# for i in range(1, 6):
+#     soma += n * n - 1    
+#     print(soma)
+print()
+def factorial(n):
+    if n <= 1 or n <= 0:
+        return 1
+    return n * factorial(n - 1)
+
+n = factorial(5)
+print(n)

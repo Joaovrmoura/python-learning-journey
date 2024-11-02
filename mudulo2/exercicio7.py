@@ -13,8 +13,6 @@
 lista1 = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 lista2 = ['BA', 'SP', 'MG', 'RJ']
 
-lista_inteira = []
-lista_menor = []
 
 def zipper(lista1, lista2):
     max_inter = min(len(lista1), len(lista2))   

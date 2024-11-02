@@ -9,7 +9,8 @@
 # nova_func = partial(parametro_da_funcao_original, valor_do_parametro)
 from functools import partial
 #Retorna o tipo se é generetor o iterator
-#todo generator é um iterator, mas nem todo iterator e um generator
+#todo generator é um iterator, 
+# mas nem todo iterator e um generator
 from types import GeneratorType
 
 def print_p(iterators):

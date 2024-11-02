@@ -42,15 +42,15 @@ print(pessoas)
 
 # List método
 print(list(pessoas))
-#conta o numero de chaves
+# conta o numero de chaves
 print(len(pessoas))
-#mostra apenas os valores de suas chaves
+# mostra apenas os valores de suas chaves
 print(pessoas.values())
-#retorna uma lista com tuplas com indices
+# retorna uma lista com tuplas com indices
 print(pessoas.items())
-#setdefault retorna uma chave ou adiciona caso não exista
+# setdefault retorna uma chave ou adiciona caso não exista
 print(pessoas.setdefault('idade', 25))
-#nesse caso como não existe ele adicionou
+# nesse caso como não existe ele adicionou
 print(pessoas)
 for indice, chave in pessoas.items():
     print(f"{indice} {chave}")

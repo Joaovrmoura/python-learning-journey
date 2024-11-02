@@ -16,7 +16,7 @@ print("Primeira Forma")
 lista_a = [1, 2, 3, 4, 5, 6, 7]
 lista_b = [1, 2, 3, 4]
 def menor_lista(lista1, lista2):
-    menor_lista = min(len(lista1), len(lista2));
+    menor_lista = min(len(lista1), len(lista2))
     return [
         lista1[i] + lista2[i] for i in range(menor_lista)
     ]

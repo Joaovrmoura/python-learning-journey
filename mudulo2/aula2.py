@@ -26,10 +26,10 @@ print(x)
 
 
 #retorno das funções 
-#a palavra RETURN que é utilizada somente em métodos ou funções 
-#para o script e retorno o valor da função
-#utilizamos o return para receber valores em variáveis pois
-#funções dentro do python sem return devolvem o valor None
+# a palavra RETURN que é utilizada somente em métodos ou funções 
+# para o script e retorno o valor da função
+# utilizamos o return para receber valores em variáveis pois
+# funções dentro do python sem return devolvem o valor None
 
 
 def mostrar_return():
