@@ -20,6 +20,7 @@ def menor_lista(lista1, lista2):
     return [
         lista1[i] + lista2[i] for i in range(menor_lista)
     ]
+
 print(menor_lista(lista_a, lista_b))
 
 # Segunda Forma
