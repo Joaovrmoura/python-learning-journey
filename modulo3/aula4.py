@@ -1,4 +1,3 @@
-
 # Nossas instâncias podem guardar estados
 class Camera:
     def __init__(self, nome, filmando=None):

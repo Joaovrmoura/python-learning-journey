@@ -1,4 +1,4 @@
-# Self referencia ao objeto que está sendo criado
+# Self referencia o objeto que está sendo criado
 # Método init inicia os métodos da class
 
 class Pessoa:
